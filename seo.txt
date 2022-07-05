@@ -1,0 +1,27 @@
+Agregué con etiqueta Meta, keywords a cada página de mi proyecto
+index: zapatos, mujer, moda, sandalias, botas
+nueva_temporada: calzado, botas,borcegos, mujer, moda, otoño, invierno, ¡COMPRAR!
+contacto: contacto, datos, consultas, compras
+sucursales: local, dirección, ubicación, zapatería, rosario
+quienes_somos: historia, zapatería, rosario
+
+Agregué con rtiqueta Meta, descrption a cada página de mi proyecto
+index: Venta de calzado de mujer
+nueva_temporada: Encontrá la nueva temporada otoño invierno de calzado de mujer 
+contacto: Envianos tu consulta o comentario
+sucursales: dirección de nuestras tres sucursales en Rosario
+quienes_somos: historia tienda de tacones
+
+Edité nombre del title en cada página de mi proyecto
+index: Home | Tienda de Tacones
+nueva temporada: Nueva Temporada | Tienda de Tacones
+contacto: Contacto | Tienda de Tacones
+quienes somos: Quienes somos | Tienda de Tacones
+sucursales: Sucursales | Tienda de Tacones
+ 
+ 
+ Cambié los archivos de imgágenes por url
+
+
+
+Cree carpeta "paginas" y coloqué las páginas del proyecto para diferenciarlas del index

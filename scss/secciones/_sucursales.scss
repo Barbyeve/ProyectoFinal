@@ -1,0 +1,10 @@
+.sucursal {
+    .imgSucursales {
+        height: 20rem;
+        width: 20rem;
+    }
+}
+
+.dir {
+@extend %textoMediano
+}

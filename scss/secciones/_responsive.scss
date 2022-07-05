@@ -1,0 +1,89 @@
+/* medias para Footer */
+@media (max-width:768px) {
+    footer {
+        p {
+            display: none;
+        }
+    }
+}
+
+
+/* medias para Index */
+
+@media (max-width:768px) {
+    main {
+        .slogan {
+            font-size: $font_size_responsive_h2;
+        }
+
+        .carousel-inner {
+            height: 50vh;
+        }
+
+        .cajaFlyers {
+            display: none;
+        }
+    }
+}
+
+@media (max-width:438px) {
+    main {
+        .slogan {
+            font-size: 5vh;
+        }
+    }
+}
+
+/* medias para Catalogo */
+@media (max-width:438px) {
+    main {
+        .productos {
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+            grid-template-areas:
+                "productoLaura"
+                "productoCarla"
+                "productoWendy"
+                "productoPamela"
+                "productoSofia"
+                "productoPaddy"
+                "ProductoDenise"
+                "productoAnna"
+                "productoMilva"
+                "ProductoAurora"
+                "productoElsa"
+                "productoCharry"
+                "productoMeryl"
+                "productoTatiana"
+                "productoOna"
+                "productoMagui"
+        }
+    }
+}
+
+@media (max-width:768px) {
+    main {
+        .productos {
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto auto auto auto auto auto auto;
+            grid-template-areas:
+                "productoLaura productoCarla"
+                "productoWendy productoPamela"
+                "productoSofia productoPaddy"
+                "ProductoDenise productoAnna"
+                "productoMilva ProductoAurora"
+                "productoElsa productoCharry"
+                "productoMeryl productoTatiana"
+                "productoOna productoMagui"
+        }
+    }
+}
+
+/* medias para Sucursales */
+@media (max-width:768px) {
+    main{
+        .imgSucursales{
+            display: none;
+        }
+    }
+}

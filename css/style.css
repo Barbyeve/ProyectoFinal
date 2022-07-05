@@ -1,0 +1,225 @@
+main .productos .productoLaura img, main .productos .productoCarla img, main .productos .productoWendy img, main .productos .productoMeryl img, main .productos .productoPamela img, main .productos .productoSofia img, main .productos .productoPaddy img, main .productos .productoTatiana img, main .productos .ProductoDenise img, main .productos .productoAnna img, main .productos .productoMilva img, main .productos .productoOna img, main .productos .ProductoAurora img, main .productos .productoElsa img, main .productos .productoCharry img, main .productos .productoMagui img {
+  width: 35vh;
+  height: 50vh; }
+
+main .productos .productoLaura p, main .productos .productoCarla p, main .productos .productoWendy p, main .productos .productoMeryl p, main .productos .productoPamela p, main .productos .productoSofia p, main .productos .productoPaddy p, main .productos .productoTatiana p, main .productos .ProductoDenise p, main .productos .productoAnna p, main .productos .productoMilva p, main .productos .productoOna p, main .productos .ProductoAurora p, main .productos .productoElsa p, main .productos .productoCharry p, main .productos .productoMagui p, .dir {
+  text-align: center;
+  color: #708D81;
+  font-family: "Staatliches", cursive;
+  font-size: x-large; }
+
+footer p {
+  color: #001427;
+  font-size: medium;
+  font-family: "Staatliches", cursive; }
+
+.quienesSomos {
+  font-family: "Satisfy", cursive;
+  font-size: xx-large;
+  color: #8D0801; }
+
+main .slogan {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 400%;
+  text-align: center;
+  margin: 2rem;
+  color: black; }
+  main .slogan :hover {
+    color: brown;
+    transition: 2s; }
+
+main .carousel-inner {
+  height: 50rem; }
+
+main .cajaFlyers {
+  display: grid;
+  grid-template-areas: "cuotas envio" "cuotas descuento";
+  max-width: 100%;
+  height: 31.25rem;
+  margin: 2rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  grid-column-gap: 3vh;
+  grid-row-gap: 3vh;
+  color: #F4D58D;
+  font-size: 10ch;
+  font-family: 'Abril Fatface', cursive;
+  text-align: center; }
+  main .cajaFlyers .cuotas {
+    grid-area: cuotas;
+    background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1656975245/TiendaDeTaconesCatalogo/Untitled_design_1_blhmck.png);
+    background-size: cover;
+    background-position-y: bottom; }
+    main .cajaFlyers .cuotas :hover {
+      transform: scale(1.07);
+      transition: 1s; }
+    main .cajaFlyers .cuotas div p {
+      margin: 3rem; }
+  main .cajaFlyers .envio {
+    grid-area: envio;
+    background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1656975244/TiendaDeTaconesCatalogo/Untitled_design_zkjmtq.png); }
+    main .cajaFlyers .envio :hover {
+      transform: scale(1.07);
+      transition: 1s; }
+    main .cajaFlyers .envio div p {
+      margin: 3rem; }
+  main .cajaFlyers .descuento {
+    grid-area: descuento;
+    background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1656975237/TiendaDeTaconesCatalogo/Untitled_design_2_xfjzs4.png);
+    background-size: cover;
+    background-position-y: center; }
+    main .cajaFlyers .descuento :hover {
+      transform: scale(1.07);
+      transition: 1s; }
+    main .cajaFlyers .descuento div p {
+      margin: 3rem; }
+
+header .container-fluid {
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #F4D58D; }
+
+header .imagenNav img {
+  width: 13rem; }
+
+header .botonNav {
+  font-size: x-large;
+  font-family: "Staatliches", cursive; }
+
+header .nav-link {
+  color: #8D0801;
+  margin: 1rem; }
+  header .nav-link:hover {
+    color: #BF0603;
+    transform: scale(1.03);
+    transition: 0.5s; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #F4D58D; }
+  footer p {
+    text-align: center;
+    margin: 0.3rem; }
+  footer ul {
+    padding: 0.5rem; }
+  footer li {
+    display: inline-block;
+    padding: 0 0.5rem 0 0.5rem;
+    margin: 5px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #8D0801; }
+    footer li a .link {
+      text-decoration: none; }
+    footer li :hover {
+      text-decoration: none;
+      transform: scale(1.5, 1.5);
+      transition: 0.5s; }
+
+main h2 .slogan {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 100%;
+  text-align: center;
+  margin: 2rem;
+  color: black; }
+
+main .productos {
+  margin: 60px;
+  margin-bottom: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+  grid-template-areas: "productoLaura productoCarla productoWendy productoMeryl" "productoPamela productoSofia productoPaddy productoTatiana" "ProductoDenise productoAnna productoMilva productoOna" "ProductoAurora productoElsa productoCharry productoMagui"; }
+  main .productos .productoLaura {
+    grid-area: productoLaura; }
+  main .productos .productoCarla {
+    grid-area: productoCarla; }
+  main .productos .productoWendy {
+    grid-area: productoWendy; }
+  main .productos .productoMeryl {
+    grid-area: productoMeryl; }
+  main .productos .productoPamela {
+    grid-area: productoPamela; }
+  main .productos .productoSofia {
+    grid-area: productoSofia; }
+  main .productos .productoPaddy {
+    grid-area: productoPaddy; }
+  main .productos .productoTatiana {
+    grid-area: productoTatiana; }
+  main .productos .ProductoDenise {
+    grid-area: ProductoDenise; }
+  main .productos .productoAnna {
+    grid-area: productoAnna; }
+  main .productos .productoMilva {
+    grid-area: productoMilva; }
+  main .productos .productoOna {
+    grid-area: productoOna; }
+  main .productos .ProductoAurora {
+    grid-area: ProductoAurora; }
+  main .productos .productoElsa {
+    grid-area: productoElsa; }
+  main .productos .productoCharry {
+    grid-area: productoCharry; }
+  main .productos .productoMagui {
+    grid-area: productoMagui; }
+
+.contacto {
+  width: 60%;
+  height: 100%;
+  justify-content: space-around; }
+  .contacto .consulta {
+    height: 20%vh; }
+
+.consulta {
+  height: 20%vh; }
+
+.sucursal .imgSucursales {
+  height: 20rem;
+  width: 20rem; }
+
+.quienesSomos {
+  text-align: center;
+  padding: 3rem; }
+
+/* medias para Footer */
+@media (max-width: 768px) {
+  footer p {
+    display: none; } }
+
+/* medias para Index */
+@media (max-width: 768px) {
+  main .slogan {
+    font-size: 7vh; }
+  main .carousel-inner {
+    height: 50vh; }
+  main .cajaFlyers {
+    display: none; } }
+
+@media (max-width: 438px) {
+  main .slogan {
+    font-size: 5vh; } }
+
+/* medias para Catalogo */
+@media (max-width: 438px) {
+  main .productos {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-areas: "productoLaura" "productoCarla" "productoWendy" "productoPamela" "productoSofia" "productoPaddy" "ProductoDenise" "productoAnna" "productoMilva" "ProductoAurora" "productoElsa" "productoCharry" "productoMeryl" "productoTatiana" "productoOna" "productoMagui"; } }
+
+@media (max-width: 768px) {
+  main .productos {
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-areas: "productoLaura productoCarla" "productoWendy productoPamela" "productoSofia productoPaddy" "ProductoDenise productoAnna" "productoMilva ProductoAurora" "productoElsa productoCharry" "productoMeryl productoTatiana" "productoOna productoMagui"; } }
+
+/* medias para Sucursales */
+@media (max-width: 768px) {
+  main .imgSucursales {
+    display: none; } }

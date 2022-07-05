@@ -1,0 +1,5 @@
+@mixin fondoImagenes ($url, $size, $position) {
+    background-image: $url;
+    background-size: $size;
+    background-position-y: $position;
+}

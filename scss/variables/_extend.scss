@@ -1,0 +1,22 @@
+%tamanioImagen{
+    width: 35vh;
+    height: 50vh;
+}
+
+%textoMediano{
+    text-align: center;
+    color: $color_name;
+    font-family: $font_nav;
+    font-size: x-large;
+
+}
+%textoPequenio{
+    color: $color_palabrasFooter;
+    font-size: medium;
+    font-family: $font_nav;
+}
+%texto{
+    font-family: $font_sec;
+    font-size:xx-large ;
+    color: $color_nav;
+}
