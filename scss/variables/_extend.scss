@@ -18,5 +18,10 @@
 %texto{
     font-family: $font_sec;
     font-size:xx-large ;
-    color: $color_nav;
+    color: $color_HeaderFooter
+}
+%flyers{
+    background-position: center;
+background-size: cover;
+width: 25rem;
 }

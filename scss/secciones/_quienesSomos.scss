@@ -1,3 +1,8 @@
+
+    .fondo{
+        background-color: $color_nav
+    }
+
 .quienesSomos{
     @extend %texto; 
     text-align: center;

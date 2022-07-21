@@ -1,81 +1,90 @@
 main {
-    .slogan {
-        font-family: 'Shadows Into Light', cursive;
-        font-size: 400%;
-        text-align: center;
-        margin: 2rem;
-        color: black;
+  .slogan {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 400%;
+    text-align: center;
+    margin: 2rem;
+    color: black;
 
-        & :hover {
-            color: brown;
-            transition: 2s;
-        }
+    & :hover {
+      color: brown;
+      transition: 2s;
+    }
+  }
 
+  // hay que escribir las etiquetas acá?
+  .carousel-inner {
+    height: 30rem;
+    margin: 3rem;
+    padding: 1rem;
+  }
+
+  .cajaFlyers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20rem;
+    width: 100%;
+
+    // display: grid;
+    // grid-template-areas:
+    //     "cuotas envio"
+    //     "cuotas descuento"
+    // ;
+    // max-width: 100%;
+    // height: 31.25rem;
+    // margin: 2rem;
+    // grid-template-columns: 1fr 1fr;
+    // grid-template-rows: 1fr 2fr;
+    // grid-column-gap: 3vh;
+    // grid-row-gap: 3vh;
+    // color: $color_Flyers;
+    // font-size: 10ch;
+    // font-family: 'Abril Fatface', cursive;
+    // text-align: center;
+
+    .cuotas {
+      // grid-area: cuotas;
+      // @include fondoImagenes (url(https://res.cloudinary.com/barbyeve/image/upload/v1658327884/TiendaDeTaconesCatalogo/2_klsgvi.png), cover, bottom);
+      background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1658327884/TiendaDeTaconesCatalogo/2_klsgvi.png);
+      @extend %flyers;
+      & :hover {
+        transform: scale(1.07);
+        transition: 1s;
+      }
+      div p {
+        margin: 3rem;
+      }
     }
 
-    // hay que escribir las etiquetas acá?
-    .carousel-inner {
-        height: 50rem;
+    .envio {
+      // grid-area: envio;
+      // background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1658327994/TiendaDeTaconesCatalogo/1_xobx7l.png);
+      background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1658327886/TiendaDeTaconesCatalogo/3_xcx2wc.png);
+      @extend %flyers;
+
+      & :hover {
+        transform: scale(1.07);
+        transition: 1s;
+      }
+      div p {
+        margin: 3rem;
+      }
     }
 
-    .cajaFlyers {
-        display: grid;
-        grid-template-areas:
-            "cuotas envio"
-            "cuotas descuento"
-        ;
-        max-width: 100%;
-        height: 31.25rem;
-        margin: 2rem;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 2fr;
-        grid-column-gap: 3vh;
-        grid-row-gap: 3vh;
-        color: $color_Flyers;
-        font-size: 10ch;
-        font-family: 'Abril Fatface', cursive;
-        text-align: center;
-
-        .cuotas {
-            grid-area: cuotas;
-            @include fondoImagenes (url(https://res.cloudinary.com/barbyeve/image/upload/v1656975245/TiendaDeTaconesCatalogo/Untitled_design_1_blhmck.png), cover, bottom);
-
-
-            & :hover {
-                transform: scale(1.07);
-                transition: 1s;
-            }
-            div p {
-                margin: 3rem;
-            }
-        }
-
-        .envio {
-            grid-area: envio;
-            background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1656975244/TiendaDeTaconesCatalogo/Untitled_design_zkjmtq.png);
-            
-
-            & :hover {
-                transform: scale(1.07);
-                transition: 1s;
-            }
-            div p {
-                margin: 3rem;
-            }
-        }
-
-        .descuento {
-            grid-area: descuento;
-            @include fondoImagenes (url(https://res.cloudinary.com/barbyeve/image/upload/v1656975237/TiendaDeTaconesCatalogo/Untitled_design_2_xfjzs4.png), cover, center);
-
-            & :hover {
-                transform: scale(1.07);
-                transition: 1s;
-            }
-            div p {
-                margin: 3rem;
-            }
-        }
+    .descuento {
+      // grid-area: descuento;
+      // @include fondoImagenes (url(https://res.cloudinary.com/barbyeve/image/upload/v1658327886/TiendaDeTaconesCatalogo/3_xcx2wc.png), cover, center);
+      background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1658327994/TiendaDeTaconesCatalogo/1_xobx7l.png);
+      @extend %flyers;
+      & :hover {
+        transform: scale(1.07);
+        transition: 1s;
+      }
+      div p {
+        margin: 3rem;
+      }
     }
+  }
 
 }
