@@ -1,28 +1,32 @@
-footer {
+.footer {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: 1rem;
-    padding: 1rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
     background-color: $color_HeaderFooter;
-    p{
+
+    &__paragraph {
         @extend %textoPequenio;
         text-align: center;
         margin: 0.3rem;
     }
 
 
-    ul{
+    &__ul {
         padding: 0.5rem;
-    } li {
+    }
+
+    li {
         display: inline-block;
         padding: 0 0.5rem 0 0.5rem;
         margin: 5px;
         font-size: 3rem;
         font-weight: bold;
         color: $color_nav;
-        a .link{
+
+        a .link {
             text-decoration: none;
         }
 

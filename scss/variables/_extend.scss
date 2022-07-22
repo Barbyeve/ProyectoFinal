@@ -1,27 +1,29 @@
-%tamanioImagen{
+%tamanioImagen {
     width: 35vh;
     height: 50vh;
 }
 
-%textoMediano{
+%textoMediano {
     text-align: center;
     color: $color_name;
     font-family: $font_nav;
     font-size: x-large;
-
 }
-%textoPequenio{
+
+%textoPequenio {
     color: $color_palabrasFooter;
     font-size: medium;
     font-family: $font_nav;
 }
-%texto{
+
+%texto {
     font-family: $font_sec;
-    font-size:xx-large ;
+    font-size: xx-large;
     color: $color_HeaderFooter
 }
-%flyers{
+
+%flyers {
     background-position: center;
-background-size: cover;
-width: 25rem;
+    background-size: cover;
+    width: 25rem;
 }

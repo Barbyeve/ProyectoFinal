@@ -1,21 +1,25 @@
-header{
-    .container-fluid{
-        justify-content:flex-end;
+header {
+    .container-fluid {
+        justify-content: flex-end;
         align-items: flex-end;
         background-color: $color_HeaderFooter;
     }
-    .imagenNav img{
+
+    .imagenNav img {
         width: 13rem;
     }
-    .botonNav{
+
+    .botonNav {
         font-size: x-large;
         font-family: $font_nav;
-        
+
     }
-    .nav-link{
+
+    .nav-link {
         color: $color_nav;
         margin: 1rem;
-        &:hover{
+
+        &:hover {
             color: $color_positionHover;
             transform: scale(1.03);
             transition: 0.5s;

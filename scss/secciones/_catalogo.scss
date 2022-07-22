@@ -1,6 +1,6 @@
-main{
-    h2{
-        .slogan{
+main {
+    h2 {
+        .slogan {
             font-family: 'Shadows Into Light', cursive;
             font-size: 100%;
             text-align: center;
@@ -10,258 +10,306 @@ main{
     }
 
 
-.productos {
-    margin: 60px;
-    margin-bottom: 150px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-row-gap: 50px;
-    grid-column-gap: 50px;
-    grid-template-areas:
-        "productoLaura productoCarla productoWendy productoMeryl"
-        "productoPamela productoSofia productoPaddy productoTatiana"
-        "ProductoDenise productoAnna productoMilva productoOna"
-        "ProductoAurora productoElsa productoCharry productoMagui";
+    .productos {
+        margin: 60px;
+        margin-bottom: 150px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 50px;
+        grid-column-gap: 50px;
+        grid-template-areas:
+            "productoLaura productoCarla productoWendy productoMeryl"
+            "productoPamela productoSofia productoPaddy productoTatiana"
+            "ProductoDenise productoAnna productoMilva productoOna"
+            "ProductoAurora productoElsa productoCharry productoMagui";
+
         .productoLaura {
             grid-area: productoLaura;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .productoCarla {
             grid-area: productoCarla;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .productoWendy {
             grid-area: productoWendy;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .productoMeryl {
             grid-area: productoMeryl;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .productoPamela {
             grid-area: productoPamela;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .productoSofia {
             grid-area: productoSofia;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .productoPaddy {
             grid-area: productoPaddy;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .productoTatiana {
             grid-area: productoTatiana;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .ProductoDenise {
             grid-area: ProductoDenise;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .productoAnna {
             grid-area: productoAnna;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .productoMilva {
             grid-area: productoMilva;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .productoOna {
             grid-area: productoOna;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .ProductoAurora {
             grid-area: ProductoAurora;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .productoElsa {
             grid-area: productoElsa;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .productoCharry {
             grid-area: productoCharry;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
         }
-        
+
         .productoMagui {
             grid-area: productoMagui;
+
             img {
                 @extend %tamanioImagen;
             }
-            &:hover{
+
+            &:hover {
                 transform: scale(1.05);
                 transition: 1s;
             }
+
             p {
                 @extend %textoMediano;
 
             }
-        }  
+        }
+    }
 }
-}
-

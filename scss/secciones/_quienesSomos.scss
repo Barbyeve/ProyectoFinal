@@ -5,6 +5,6 @@
 
 .quienesSomos{
     @extend %texto; 
-    text-align: center;
+    text-align: inherit;
     padding: 3rem;
 }

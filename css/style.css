@@ -1,14 +1,14 @@
-main .productos .productoLaura img, main .productos .productoCarla img, main .productos .productoWendy img, main .productos .productoMeryl img, main .productos .productoPamela img, main .productos .productoSofia img, main .productos .productoPaddy img, main .productos .productoTatiana img, main .productos .ProductoDenise img, main .productos .productoAnna img, main .productos .productoMilva img, main .productos .productoOna img, main .productos .ProductoAurora img, main .productos .productoElsa img, main .productos .productoCharry img, main .productos .productoMagui img {
+main .productos .productoLaura img, main .productos .productoCarla img, main .productos .productoWendy img, main .productos .productoMeryl img, main .productos .productoPamela img, main .productos .productoSofia img, main .productos .productoPaddy img, main .productos .productoTatiana img, main .productos .ProductoDenise img, main .productos .productoAnna img, main .productos .productoMilva img, main .productos .productoOna img, main .productos .ProductoAurora img, main .productos .productoElsa img, main .productos .productoCharry img, main .productos .productoMagui img, .main_404 .productos .productoLaura img, .main_404 .productos .productoCarla img, .main_404 .productos .productoWendy img, .main_404 .productos .productoMeryl img {
   width: 35vh;
   height: 50vh; }
 
-main .productos .productoLaura p, main .productos .productoCarla p, main .productos .productoWendy p, main .productos .productoMeryl p, main .productos .productoPamela p, main .productos .productoSofia p, main .productos .productoPaddy p, main .productos .productoTatiana p, main .productos .ProductoDenise p, main .productos .productoAnna p, main .productos .productoMilva p, main .productos .productoOna p, main .productos .ProductoAurora p, main .productos .productoElsa p, main .productos .productoCharry p, main .productos .productoMagui p, .dir {
+main .cajaFlyers .asesoramiento p, main .cajaFlyers .tarjeta p, main .cajaFlyers .envio p, main .productos .productoLaura p, main .productos .productoCarla p, main .productos .productoWendy p, main .productos .productoMeryl p, main .productos .productoPamela p, main .productos .productoSofia p, main .productos .productoPaddy p, main .productos .productoTatiana p, main .productos .ProductoDenise p, main .productos .productoAnna p, main .productos .productoMilva p, main .productos .productoOna p, main .productos .ProductoAurora p, main .productos .productoElsa p, main .productos .productoCharry p, main .productos .productoMagui p, .dir, .main_404 .productos .productoLaura p, .main_404 .productos .productoCarla p, .main_404 .productos .productoWendy p, .main_404 .productos .productoMeryl p {
   text-align: center;
   color: #708D81;
   font-family: "Staatliches", cursive;
   font-size: x-large; }
 
-footer p {
+.footer__paragraph {
   color: #001427;
   font-size: medium;
   font-family: "Staatliches", cursive; }
@@ -17,11 +17,6 @@ footer p {
   font-family: "Satisfy", cursive;
   font-size: xx-large;
   color: #f8f9fa; }
-
-main .cajaFlyers .cuotas, main .cajaFlyers .envio, main .cajaFlyers .descuento {
-  background-position: center;
-  background-size: cover;
-  width: 25rem; }
 
 main .slogan {
   font-family: "Shadows Into Light", cursive;
@@ -44,27 +39,6 @@ main .cajaFlyers {
   justify-content: space-around;
   height: 20rem;
   width: 100%; }
-  main .cajaFlyers .cuotas {
-    background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1658327884/TiendaDeTaconesCatalogo/2_klsgvi.png); }
-    main .cajaFlyers .cuotas :hover {
-      transform: scale(1.07);
-      transition: 1s; }
-    main .cajaFlyers .cuotas div p {
-      margin: 3rem; }
-  main .cajaFlyers .envio {
-    background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1658327886/TiendaDeTaconesCatalogo/3_xcx2wc.png); }
-    main .cajaFlyers .envio :hover {
-      transform: scale(1.07);
-      transition: 1s; }
-    main .cajaFlyers .envio div p {
-      margin: 3rem; }
-  main .cajaFlyers .descuento {
-    background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1658327994/TiendaDeTaconesCatalogo/1_xobx7l.png); }
-    main .cajaFlyers .descuento :hover {
-      transform: scale(1.07);
-      transition: 1s; }
-    main .cajaFlyers .descuento div p {
-      margin: 3rem; }
 
 header .container-fluid {
   justify-content: flex-end;
@@ -86,29 +60,29 @@ header .nav-link {
     transform: scale(1.03);
     transition: 0.5s; }
 
-footer {
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 1rem;
-  padding: 1rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
   background-color: #f8f9fa; }
-  footer p {
+  .footer__paragraph {
     text-align: center;
     margin: 0.3rem; }
-  footer ul {
+  .footer__ul {
     padding: 0.5rem; }
-  footer li {
+  .footer li {
     display: inline-block;
     padding: 0 0.5rem 0 0.5rem;
     margin: 5px;
     font-size: 3rem;
     font-weight: bold;
     color: #8D0801; }
-    footer li a .link {
+    .footer li a .link {
       text-decoration: none; }
-    footer li :hover {
+    .footer li :hover {
       text-decoration: none;
       transform: scale(1.5, 1.5);
       transition: 0.5s; }
@@ -254,15 +228,62 @@ main .productos {
   main .productos {
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    grid-template-areas: "productoLaura" "productoCarla" "productoWendy" "productoPamela" "productoSofia" "productoPaddy" "ProductoDenise" "productoAnna" "productoMilva" "ProductoAurora" "productoElsa" "productoCharry" "productoMeryl" "productoTatiana" "productoOna" "productoMagui"; } }
+    grid-template-areas: "productoLaura" "productoCarla" "productoWendy" "productoPamela" "productoSofia" "productoPaddy" "ProductoDenise" "productoAnna" "productoMilva" "ProductoAurora" "productoElsa" "productoCharry" "productoMeryl" "productoTatiana" "productoOna" "productoMagui"; } }
 
 @media (max-width: 768px) {
   main .productos {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto auto auto auto;
-    grid-template-areas: "productoLaura productoCarla" "productoWendy productoPamela" "productoSofia productoPaddy" "ProductoDenise productoAnna" "productoMilva ProductoAurora" "productoElsa productoCharry" "productoMeryl productoTatiana" "productoOna productoMagui"; } }
+    grid-template-areas: "productoLaura productoCarla" "productoWendy productoPamela" "productoSofia productoPaddy" "ProductoDenise productoAnna" "productoMilva ProductoAurora" "productoElsa productoCharry" "productoMeryl productoTatiana" "productoOna productoMagui"; } }
 
 /* medias para Sucursales */
 @media (max-width: 768px) {
   main .imgSucursales {
     display: none; } }
+
+/* medias para error_404 */
+@media (max-width: 438px) {
+  .main_404 .productos {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "productoLaura" "productoCarla" "productoWendy" "productoMeryl"; } }
+
+.main_404 .error {
+  text-align: center;
+  margin: 2rem;
+  color: black; }
+
+.main_404 p {
+  text-align: center;
+  margin: 1rem;
+  color: black; }
+
+.main_404 .productos {
+  margin: 60px;
+  margin-bottom: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-row-gap: 50px;
+  grid-column-gap: 20px;
+  grid-template-areas: "productoLaura productoCarla"  "productoWendy productoMeryl"; }
+  .main_404 .productos .productoLaura {
+    grid-area: productoLaura; }
+    .main_404 .productos .productoLaura:hover {
+      transform: scale(1.05);
+      transition: 1s; }
+  .main_404 .productos .productoCarla {
+    grid-area: productoCarla; }
+    .main_404 .productos .productoCarla:hover {
+      transform: scale(1.05);
+      transition: 1s; }
+  .main_404 .productos .productoWendy {
+    grid-area: productoWendy; }
+    .main_404 .productos .productoWendy:hover {
+      transform: scale(1.05);
+      transition: 1s; }
+  .main_404 .productos .productoMeryl {
+    grid-area: productoMeryl; }
+    .main_404 .productos .productoMeryl:hover {
+      transform: scale(1.05);
+      transition: 1s; }

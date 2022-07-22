@@ -81,9 +81,25 @@
 
 /* medias para Sucursales */
 @media (max-width:768px) {
-    main{
-        .imgSucursales{
+    main {
+        .imgSucursales {
             display: none;
+        }
+    }
+}
+
+
+/* medias para error_404 */
+@media (max-width:438px) {
+    .main_404 {
+        .productos {
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto auto;
+            grid-template-areas:
+                "productoLaura"
+                "productoCarla"
+                "productoWendy"
+                "productoMeryl"
         }
     }
 }

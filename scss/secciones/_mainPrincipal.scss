@@ -26,65 +26,30 @@ main {
     height: 20rem;
     width: 100%;
 
-    // display: grid;
-    // grid-template-areas:
-    //     "cuotas envio"
-    //     "cuotas descuento"
-    // ;
-    // max-width: 100%;
-    // height: 31.25rem;
-    // margin: 2rem;
-    // grid-template-columns: 1fr 1fr;
-    // grid-template-rows: 1fr 2fr;
-    // grid-column-gap: 3vh;
-    // grid-row-gap: 3vh;
-    // color: $color_Flyers;
-    // font-size: 10ch;
-    // font-family: 'Abril Fatface', cursive;
-    // text-align: center;
-
-    .cuotas {
-      // grid-area: cuotas;
-      // @include fondoImagenes (url(https://res.cloudinary.com/barbyeve/image/upload/v1658327884/TiendaDeTaconesCatalogo/2_klsgvi.png), cover, bottom);
-      background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1658327884/TiendaDeTaconesCatalogo/2_klsgvi.png);
-      @extend %flyers;
-      & :hover {
-        transform: scale(1.07);
-        transition: 1s;
-      }
-      div p {
-        margin: 3rem;
-      }
+    .asesoramiento p {
+      @extend %textoMediano;
     }
 
-    .envio {
-      // grid-area: envio;
-      // background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1658327994/TiendaDeTaconesCatalogo/1_xobx7l.png);
-      background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1658327886/TiendaDeTaconesCatalogo/3_xcx2wc.png);
-      @extend %flyers;
-
-      & :hover {
-        transform: scale(1.07);
-        transition: 1s;
-      }
-      div p {
-        margin: 3rem;
-      }
+    .tarjeta p {
+      @extend %textoMediano;
     }
 
-    .descuento {
-      // grid-area: descuento;
-      // @include fondoImagenes (url(https://res.cloudinary.com/barbyeve/image/upload/v1658327886/TiendaDeTaconesCatalogo/3_xcx2wc.png), cover, center);
-      background-image: url(https://res.cloudinary.com/barbyeve/image/upload/v1658327994/TiendaDeTaconesCatalogo/1_xobx7l.png);
-      @extend %flyers;
-      & :hover {
-        transform: scale(1.07);
-        transition: 1s;
-      }
-      div p {
-        margin: 3rem;
-      }
+    .envio p {
+      @extend %textoMediano;
     }
   }
-
+}
+.btn btn-success {
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet);
+  --bs-btn-border-color: var(--bd-violet);
+  --bs-btn-border-radius: .5rem;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+  --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
 }
