@@ -22,15 +22,17 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 1rem; 
-    height: 15rem; 
+    margin: 1rem;
+    height: 15rem;
     width: 100%;
-    .categoriaFlyer{ 
-      text-align: center; 
+
+    .categoriaFlyer {
+      text-align: center;
+
       p {
         @extend %textoMediano;
       }
     }
-    
+
   }
 }

@@ -1,16 +1,17 @@
 .sucursal {
     text-align: center;
+
     p {
         @extend %textoMediano;
     }
 
     .imgSucursales {
-        
+
         height: 18rem;
         width: 22rem;
     }
 }
 
 .dir {
-@extend %textoMediano
+    @extend %textoMediano
 }
