@@ -2,7 +2,7 @@ main .productos .productoLaura img, main .productos .productoCarla img, main .pr
   width: 35vh;
   height: 50vh; }
 
-main .cajaFlyers .asesoramiento p, main .cajaFlyers .tarjeta p, main .cajaFlyers .envio p, main .productos .productoLaura p, main .productos .productoCarla p, main .productos .productoWendy p, main .productos .productoMeryl p, main .productos .productoPamela p, main .productos .productoSofia p, main .productos .productoPaddy p, main .productos .productoTatiana p, main .productos .ProductoDenise p, main .productos .productoAnna p, main .productos .productoMilva p, main .productos .productoOna p, main .productos .ProductoAurora p, main .productos .productoElsa p, main .productos .productoCharry p, main .productos .productoMagui p, .dir, .main_404 .productos .productoLaura p, .main_404 .productos .productoCarla p, .main_404 .productos .productoWendy p, .main_404 .productos .productoMeryl p {
+main .cajaFlyers .categoriaFlyer p, main .productos .productoLaura p, main .productos .productoCarla p, main .productos .productoWendy p, main .productos .productoMeryl p, main .productos .productoPamela p, main .productos .productoSofia p, main .productos .productoPaddy p, main .productos .productoTatiana p, main .productos .ProductoDenise p, main .productos .productoAnna p, main .productos .productoMilva p, main .productos .productoOna p, main .productos .ProductoAurora p, main .productos .productoElsa p, main .productos .productoCharry p, main .productos .productoMagui p, .sucursal p, .dir, .main_404 .productos .productoLaura p, .main_404 .productos .productoCarla p, .main_404 .productos .productoWendy p, .main_404 .productos .productoMeryl p {
   text-align: center;
   color: #708D81;
   font-family: "Staatliches", cursive;
@@ -29,16 +29,18 @@ main .slogan {
     transition: 2s; }
 
 main .carousel-inner {
-  height: 30rem;
   margin: 3rem;
   padding: 1rem; }
 
 main .cajaFlyers {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  height: 20rem;
+  justify-content: space-evenly;
+  margin: 1rem;
+  height: 15rem;
   width: 100%; }
+  main .cajaFlyers .categoriaFlyer {
+    text-align: center; }
 
 header .container-fluid {
   justify-content: flex-end;
@@ -46,7 +48,7 @@ header .container-fluid {
   background-color: #f8f9fa; }
 
 header .imagenNav img {
-  width: 13rem; }
+  width: 10rem; }
 
 header .botonNav {
   font-size: x-large;
@@ -194,16 +196,18 @@ main .productos {
 .consulta {
   height: 20%vh; }
 
-.sucursal .imgSucursales {
-  height: 20rem;
-  width: 20rem; }
+.sucursal {
+  text-align: center; }
+  .sucursal .imgSucursales {
+    height: 18rem;
+    width: 22rem; }
 
 .fondo {
   background-color: #8D0801; }
 
 .quienesSomos {
-  text-align: center;
-  padding: 3rem; }
+  text-align: inherit;
+  padding: 1rem; }
 
 /* medias para Footer */
 @media (max-width: 768px) {
@@ -215,7 +219,7 @@ main .productos {
   main .slogan {
     font-size: 7vh; }
   main .carousel-inner {
-    height: 50vh; }
+    height: 20vh; }
   main .cajaFlyers {
     display: none; } }
 
@@ -240,6 +244,11 @@ main .productos {
 @media (max-width: 768px) {
   main .imgSucursales {
     display: none; } }
+
+/* medias para quienes_somos */
+@media (max-width: 438px) {
+  .quienesSomos {
+    font-size: large; } }
 
 /* medias para error_404 */
 @media (max-width: 438px) {

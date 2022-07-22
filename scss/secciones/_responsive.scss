@@ -17,7 +17,7 @@
         }
 
         .carousel-inner {
-            height: 50vh;
+            height: 20vh;
         }
 
         .cajaFlyers {
@@ -89,6 +89,13 @@
 }
 
 
+/* medias para quienes_somos */
+@media (max-width:438px) {
+    .quienesSomos {
+        font-size: large;
+    }
+}
+
 /* medias para error_404 */
 @media (max-width:438px) {
     .main_404 {
@@ -103,3 +110,4 @@
         }
     }
 }
+
