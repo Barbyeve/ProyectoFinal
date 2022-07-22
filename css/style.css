@@ -218,8 +218,6 @@ main .productos {
 @media (max-width: 768px) {
   main .slogan {
     font-size: 7vh; }
-  main .carousel-inner {
-    height: 20vh; }
   main .cajaFlyers {
     display: none; } }
 
